@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42eac566-0bde-4854-9976-cfbe8c8d660f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/lambton/MagicalCardGameCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lambton/MagicalCardGameCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="42eac566-0bde-4854-9976-cfbe8c8d660f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lambton/MagicalCardGameCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="975">
               <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
@@ -114,7 +112,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548987814428" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548988152038" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,7 +235,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lambton/MagicalCardGameCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="975">
           <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
