@@ -8,6 +8,11 @@ public class MagicalCardGameCalculator {
         String[][] cards1 = magicalCardGameModel.getCardList();
         if (magicalCardGameModel.firstShuffleColPos.contains("A")) {
             rowNumber = 0;
+            for(int y=0; y<cards1.length;y++){
+                for(int u=0,u<cards1.length;u++){
+                    tempArray[y][u]
+                }
+            }
 
         } else if (magicalCardGameModel.firstShuffleColPos.contains("B")) {
             rowNumber = 1;
