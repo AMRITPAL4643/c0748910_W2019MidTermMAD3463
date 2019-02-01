@@ -1,34 +1,28 @@
 package com.lambton;
-public class MagicalCardGameMain{
-    public String[][] getFirstShuffleResult(MagicalCardGameModel magicalCardGameModel){
-        int rowNumber = 0;
-        int columnNumber = 0;
-        String [][] cards1 = magicalCardGameModel.getCardList();
-        String tempArray [][]=new String[2][2];
-        String firstShuffleColPos = magicalCardGameModel.firstShuffleColPos;
-        columnNumber = Integer.parseInt(firstShuffleColPos.substring(1,2));
-        if(firstShuffleColPos.contains("A")){
-            rowNumber =0;
-            tempArray[0][0]=cards1[0][1];
-            tempArray[0][1]=cards1[1][1];
-            tempArray[0][2]=cards1[2][1];
-            for (int w=0; w<cards1.length; w++) {
-                for (int y = rowNumber; y < 1; y++) {
-                    for (int u = 0; u < cards1.length; u++) {
-                        tempArray[y][u] = cards1[y][u + 1];
-                    }
-                }
-                for (int y = columnNumber; y < 2; y++) {
-                    for (int u = 0; u < cards1.length; u++) {
-                        tempArray[y][u] = cards1[y][u + 1];
-                    }
-                }
+import java.util.*;
+public class MagicalCardGameMain {
+    public static void main(String [] args)
+    {
+        MagicalCardGameModel magicalCardGameModel = new MagicalCardGameModel();
+        System.out.println("This is Magical Card Game!!");
+        String [][]cards = {{"A","1","C"},{"2","F","4"},{"3","5","D"}};
+        System.out.println("Please select one card from below");
+        for (int i=0;i<cards.length;i++){
+            for (int j=0;j<cards.length;j++){
+                System.out.print(cards[i][j]);
+                System.out.print(" , ");
             }
-        }else if (firstShuffleColPos.contains("B")){
-            rowNumber =1;
-        }else if (firstShuffleColPos.contains("C")) {
-            rowNumber = 2;
+            System.out.println(" ");
         }
-        return cards1;
+
+
+        magicalCardGameModel.setCardList(cards);
+        Scanner scanner = new Scanner(System. in);
+        String FirstShuffleColPos = scanner. nextLine();
+        magicalCardGameModel.setFirstShuffleColPos(FirstShuffleColPos);
+
+
+
     }
+
 }
