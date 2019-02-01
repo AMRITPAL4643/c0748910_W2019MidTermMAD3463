@@ -1,4 +1,4 @@
-package com.lambton.;
+package com.lambton;
 
 public class MagicalCardGameModel {
 
